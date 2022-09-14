@@ -1,0 +1,29 @@
+html * {
+    line-height: 1.625;
+    font-family: sans-serif;
+  }
+
+.header-group {
+    display: flex;
+    background-color: blue;
+}
+
+.header-photo {
+    padding: 1em;
+    border-radius: 100%;
+    width: 60px;
+}
+
+.my-name {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.footer-group {
+    padding: 1em;
+}
+
+footer {
+    background-color: blue;
+}
