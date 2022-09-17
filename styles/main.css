@@ -14,8 +14,7 @@ html * {
     width: 60px;
 }
 
-.my-name {
-    font-size: 2em;
+h2 {
     font-weight: bold;
     padding: 1em;
 }
