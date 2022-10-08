@@ -1,3 +1,99 @@
+
+header {
+	background-color: #363D41;
+	color: white;
+}
+
+#header-container{
+	display: flex;
+}
+
+#header-logo {
+	height: 125px;
+	width: auto;
+}
+
+#header-title {
+	flex-grow: 4;
+}
+
+.social-media {
+	padding: 20px;
+}
+
+.date-ribbon {
+	float: right;
+	padding-right: 20px;
+}
+
+#nav-bar {
+	background-color: #363D41;
+}
+
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	/* background-color: tomato; */
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	content: "🍔 ";
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -26,3 +122,94 @@
     color: white;
   }
 
+
+  .container {
+	display: grid;
+	grid-gap: 10px;
+  }
+
+.card {
+	padding-left: 15px;
+}
+
+  #hero {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	background-color: blue;
+  }
+
+  #event {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	background-color: red;
+  }
+
+  #weather {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	background-color: orange;
+
+  }
+
+  #news-release {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	background-color: purple;
+  }
+
+  #spotlight {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	background-color: aqua;
+	display: flex;
+	flex-direction: column;
+  }
+
+  .spotlight-card {
+	padding-left: 5px;
+	background-color: whitesmoke;
+	border-style: solid;
+	border-width: 1px;
+
+  }
+
+  #join {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	background-color: green;
+  }
+
+footer {
+	margin-top: 10px;
+	background-color: #363D41;
+	color: white;
+}
+
+#footer-container {
+	padding: 20px;
+	display: flex;
+}
+
+.chamber-info {
+	flex-grow: 4;
+}
+
+.copyright-block {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#footer-logo {
+	height: 125px;
+	width: auto;
+}

@@ -12,26 +12,36 @@
     <title>Chamber of Commerce Home</title>
 </head>
 <body>
-    <nav>
-        <div><a href="./">Home</a></div>
-        <div><a href="#">Discover</a></div>
-        <div><a href="#">Directory</a></div>
-        <div><a href="#">Join</a></div>
-        <div><a href="#">Contact</a></div>
-    </nav>
     <header>
-        <img src="images/IconRock.webp" alt="logo"/>
-        <h1>Cottonwood Heights</h1>
-        <h2>Chamber of Commerce</h2>
-        <div class="social-media">
-            <a class="fa fa-facebook" href="https://facebook.com"></a>
-            <a class="fa fa-linkedin" href="https://linkedin.com"></a>
+        <div id="header-container">
+            <img id="header-logo" src="images/IconRock.webp" alt="logo"/>
+            <div id="header-title">
+                <h1>Cottonwood Heights</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+            <div class="social-media">
+                <a class="fa fa-facebook" href="https://facebook.com"></a>
+                <a class="fa fa-linkedin" href="https://linkedin.com"></a>
+            </div>
         </div>
         <div class="date-ribbon">
-            <span id="todays-date">ph</span>
+            <span id="todays-date">Today's Date</span>
         </div>
-
+        <div id="nav-bar">
+            <nav>
+                <ul class="navigation">
+                    <li><div><a class="ham" href="#">Menu</a></div></li>
+                    <li><div><a href="./">Home</a></div></li>
+                    <li><div><a href="#">Discover</a></div></li>
+                    <li><div><a href="#">Directory</a></div></li>
+                    <li><div><a href="#">Join</a></div></li>
+                    <li><div><a href="#">Contact</a></div></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+   
+    
     <main>
         <div class="container">
             <div id="hero" class="card">
@@ -47,7 +57,15 @@
                 <h2>News Release</h2>
             </div>
             <div id="spotlight" class="card">
-                <ul id="spotlight-list"></ul>
+                <div id="spotlight-1" class="spotlight-card">
+                    <h2>Spotlight 1</h2>
+                </div>    
+                <div id="spotlight-2" class="spotlight-card">
+                    <h2>Spotlight 2</h2>
+                </div>    
+                <div id="spotlight-3" class="spotlight-card">
+                    <h2>Spotlight 3</h2>
+                </div>    
             </div>
             <div id="join" class="card">
                 <h2>Join</h2>
@@ -55,29 +73,30 @@
         </div>
     </main>
     <footer>
-        <img src="images/IconRock.webp" alt="logo"/>
-        <div class="chamber-info">
-            <h2>Cottonwood Heights Chamber of Commerce</h2>
-            <p>2332 E Fort Union Blvd <br> Salt Lake City, UT  84121 <br> United States</p>
-        </div>
-        <div class="chamber-contact">
-            <p>info@rocks.city</p>
-            <p>(801) 587-8456</p>
-            <p><a href="#">Location Map</a></p>
-        </div>
-        <div class="copyright-block">
-            <div>
-                <span id="copyright-date">2022</span> |
-                <span class="student-name">Blake Lewis</span> |
-                <span class="class-name">WDD 230 Project</span>
+        <div >
+            <div id="footer-container">
+                <img id="footer-logo" src="images/IconRock.webp" alt="logo"/>
+                <div class="chamber-info">
+                    <h2>Cottonwood Heights Chamber of Commerce</h2>
+                    <p>2332 E Fort Union Blvd <br> Salt Lake City, UT  84121 <br> United States</p>
+                </div>
+                <div class="chamber-contact">
+                    <p>info@rocks.city</p>
+                    <p>(801) 587-8456</p>
+                    <p><a href="#">Location Map</a></p>
+                </div>
             </div>
-            <div class="last-modification-block">
-                <span id="last-modification-date"></span>
+            <div class="copyright-block">
+                <div>
+                    <span id="copyright-date">2022 Cottonwood Heights Chamber</span> |
+                    <span class="student-name">Blake Lewis</span> |
+                    <span class="class-name">WDD 230 Project</span>
+                    <span id="last-modification-date"></span>
+                </div>
             </div>
         </div>
-
-
     </footer>
-    
+    <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

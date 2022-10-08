@@ -2,6 +2,77 @@
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     body {
-        background-color: green;
+        background-color: white;
     }
+
+    .container {
+        display: grid;
+        grid-gap: 10px;
+      }
+    
+    .card {
+        padding-left: 15px;
+    }
+    
+      #hero {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: blue;
+      }
+    
+      #event {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        background-color: red;
+      }
+    
+      #weather {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        background-color: orange;
+    
+      }
+    
+      #news-release {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-color: purple;
+      }
+    
+      #spotlight {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+      }
+    
+      #spotlight-3 {
+        display: none;
+      }
+      .spotlight-card {
+        padding-left: 5px;
+        background-color: orange;
+        border-style: solid;
+        border-width: 1px;
+        flex-grow: 1;
+      }
+    
+      #join {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-color: rgb(145, 3, 107);
+      }
 }
