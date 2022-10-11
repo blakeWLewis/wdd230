@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+
+#top-ten-chapters {
+    padding: 15px;
+    background-color: lightgray;
+}
+
+#chapter {
+    padding: 5px;
+    width: 40%;
+}
+
+#chapter-add-button {
+    padding: 5px;
+    margin-left: 10px;
+    color: white;
+    background-color: green;
+}
+
+.row {
+    display: flex;
+    margin: 5px;
+}
+
+.delete-button {
+    margin-left: auto;
+    order: 2;
+    color: white;
+    background-color: red;
+    padding: 15px;
+}
+
+.chapter-text {
+    margin-left: 15px;
+    padding: 15px;
+    font-size: medium;
+}
+
+#chapters {
+    margin: 15px;
+    border-style: solid;
+    /* border: 1px; */
+    border-color: black;
+}
