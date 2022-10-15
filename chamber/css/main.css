@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
+body {
+	font-family: 'Manrope', sans-serif;
+}
 header {
 	background-color: #363D41;
 	color: white;
@@ -145,13 +149,34 @@ nav {
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 3;
-	background-color: blue;
+	background-color: lightgray;
+	background-image: url('../images/snowbird.webp');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  	background-size: cover;
+  }
+
+  .cotto-nwood-picture {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
   }
 
   #event {
 	grid-column-start: 1;
 	grid-column-end: 2;
-	background-color: red;
+	padding: 30px;
+	background-color: lightgray;
+  }
+
+  .home-link {
+	color: #AF5952;
+  }
+
+  .home-link:hover {
+	color: #7d3f3a;
   }
 
   #weather {
@@ -159,8 +184,28 @@ nav {
 	grid-column-end: 2;
 	grid-row-start: 2;
 	grid-row-end: 3;
-	background-color: orange;
+	padding: 30px;
+	background-color: lightgray;
 
+  }
+
+  .weather-icon {
+	max-width: 50%;
+  }
+
+  #temprature {
+	display: flex;
+    align-items: center;
+	float: right;
+	font-size: larger;
+	font-weight: bolder;
+  }
+
+.headers-weather{
+	float: left;
+}
+  .information-right {
+	float: right;
   }
 
   #news-release {
@@ -168,7 +213,8 @@ nav {
 	grid-column-end: 4;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	background-color: purple;
+	padding: 30px;
+	background-color: lightgray;
   }
 
   #spotlight {
@@ -176,17 +222,24 @@ nav {
 	grid-column-end: 5;
 	grid-row-start: 1;
 	grid-row-end: 4;
-	background-color: aqua;
+	background-color: lightgray;
 	display: flex;
 	flex-direction: column;
   }
 
   .spotlight-card {
-	padding-left: 5px;
-	background-color: whitesmoke;
+	padding-left: 10px;
+	margin: 25px;
+	background-color: lightgray;
 	border-style: solid;
 	border-width: 1px;
+	border-color: #363D41;
 
+  }
+
+  #icons {
+	align-items: center;
+	max-width: 90px;
   }
 
   #join {
@@ -194,7 +247,20 @@ nav {
 	grid-column-end: 2;
 	grid-row-start: 3;
 	grid-row-end: 4;
-	background-color: green;
+	padding: 30px;
+	background-color: lightgray;
+  }
+  #join-us-button {
+	background-color: #AF5952; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	align-items: center;
+
   }
 
 footer {
@@ -213,7 +279,6 @@ footer {
 }
 
 .copyright-block {
-	text-align: center;
 	padding-bottom: 20px;
 }
 

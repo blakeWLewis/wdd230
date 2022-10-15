@@ -19,7 +19,6 @@
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 2;
-        background-color: blue;
       }
     
       #event {
@@ -27,7 +26,6 @@
         grid-column-end: 3;
         grid-row-start: 5;
         grid-row-end: 6;
-        background-color: red;
       }
     
       #weather {
@@ -35,7 +33,6 @@
         grid-column-end: 4;
         grid-row-start: 5;
         grid-row-end: 6;
-        background-color: orange;
     
       }
     
@@ -44,7 +41,6 @@
         grid-column-end: 4;
         grid-row-start: 2;
         grid-row-end: 3;
-        background-color: purple;
       }
     
       #spotlight {
@@ -52,7 +48,6 @@
         grid-column-end: 4;
         grid-row-start: 3;
         grid-row-end: 4;
-        background-color: aqua;
         display: flex;
         flex-direction: row;
       }
@@ -62,7 +57,6 @@
       }
       .spotlight-card {
         padding-left: 5px;
-        background-color: orange;
         border-style: solid;
         border-width: 1px;
         flex-grow: 1;
@@ -73,6 +67,5 @@
         grid-column-end: 4;
         grid-row-start: 4;
         grid-row-end: 5;
-        background-color: rgb(145, 3, 107);
       }
 }
