@@ -32,7 +32,7 @@
                 <ul class="navigation">
                     <li><div><a class="ham" href="#">Menu</a></div></li>
                     <li><div><a href="./">Home</a></div></li>
-                    <li><div><a href="#">Discover</a></div></li>
+                    <li><div><a href="discoverpage/discover.html">Discover</a></div></li>
                     <li><div><a href="#">Directory</a></div></li>
                     <li><div><a href="#">Join</a></div></li>
                     <li><div><a href="#">Contact</a></div></li>
@@ -69,19 +69,19 @@
                 <h2>Weather</h2>
                 <div>
                     <img class="weather-icon" src="images/1555512.webp" alt="icon of weather">
-                    <p id="temprature">23°C</p>
+                    <p><span id="temprature">23</span>°F</p>
                 </div>
                 <div id="weather-details">
                     <div>
                         <p>Partly Cloudy</p>
                     </div>
                     <div class="headers-weather">
-                        <p>Wind Speed: </p>
-                        <p>Wind Chill: </p>
+                        <p id="wind-speed">Wind Speed: </p>
+                        <p id="wind-chill">Wind Chill: </p>
                     </div>
                     <div class="information-right">
-                        <p>2.5 km/h</p>
-                        <p>N/A</p>
+                        <p><span id="wind-speed-value">2.5</span> mph</p>
+                        <p id="wind-chill-value">N/A</p>
                     </div>
                 </div>
             </div>
@@ -143,6 +143,7 @@
         </div>
     </footer>
     <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/windchill.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
