@@ -1,0 +1,119 @@
+[
+    {
+        "name":"AJ Motion Sports", 
+        "address": {
+            "street": "5278 W Woodsmere Ln", 
+            "city": "Cottonwood Heights",
+            "state": "UT",
+            "zip": "83119"
+        },
+        "phone": "8010928271", 
+        "website": "www.ajmotionsports.com", 
+        "logo": "img/ajmotion@1x.png",
+        "membership": "Gold"
+    },
+    {
+        "name":"Alta", 
+        "address": {
+            "street": "5278 W Woodsmere Ln", 
+            "city": "Cottonwood Heights",
+            "state": "UT",
+            "zip": "83119"
+        },
+        "phone": "8010928271", 
+        "website": "www.smarttech.org", 
+        "logo": "img/altaLogo.png",
+        "membership": "Gold"
+    },
+    {
+        "name":"Snowbird", 
+        "address": {
+            "street": "5278 W Woodsmere Ln", 
+            "city": "Cottonwood Heights",
+            "state": "UT",
+            "zip": "83119"
+        },
+        "phone": "8010928271", 
+        "website": "www.smarttech.org", 
+        "logo": "img/snowbirdLogo@1x.png",
+        "membership": "Gold"
+    },
+    {
+        "name":"Pinecone restaurant", 
+        "address": {
+            "street": "5278 W Woodsmere Ln", 
+            "city": "Cottonwood Heights",
+            "state": "UT",
+            "zip": "83119"
+        },
+        "phone": "8010928271", 
+        "website": "www.smarttech.org", 
+        "logo": "img/pinecone.png",
+        "membership": "Gold"
+    },
+    {
+        "name":"Chabot Canyon Racquet Club", 
+        "address": {
+            "street": "5278 W Woodsmere Ln", 
+            "city": "Cottonwood Heights",
+            "state": "UT",
+            "zip": "83119"
+        },
+        "phone": "8010928271", 
+        "website": "www.smarttech.org", 
+        "logo": "img/raquetclub@1x.png",
+        "membership": "Gold"
+    },
+    {
+        "name":"Lone Star Tacos", 
+        "address": {
+            "street": "5278 W Woodsmere Ln", 
+            "city": "Cottonwood Heights",
+            "state": "UT",
+            "zip": "83119"
+        },
+        "phone": "8010928271", 
+        "website": "www.smarttech.org", 
+        "logo": "img/lonestar@1x.png",
+        "membership": "Gold"
+    },
+    {
+        "name":"Momentum Climbing Gym", 
+        "address": {
+            "street": "5278 W Woodsmere Ln", 
+            "city": "Cottonwood Heights",
+            "state": "UT",
+            "zip": "83119"
+        },
+        "phone": "8010928271", 
+        "website": "www.smarttech.org", 
+        "logo": "img/momentum@1x.png",
+        "membership": "Gold"
+    },
+    {
+        "name":"REI CO-OP", 
+        "address": {
+            "street": "5278 W Woodsmere Ln", 
+            "city": "Cottonwood Heights",
+            "state": "UT",
+            "zip": "83119"
+        },
+        "phone": "8010928271", 
+        "website": "www.smarttech.org", 
+        "logo": "img/rei@1x.png",
+        "membership": "Gold"
+    },
+    {
+        "name":"Stance", 
+        "address": {
+            "street": "5278 W Woodsmere Ln", 
+            "city": "Cottonwood Heights",
+            "state": "UT",
+            "zip": "83119"
+        },
+        "phone": "8010928271", 
+        "website": "www.smarttech.org", 
+        "logo": "img/stance@1x.png",
+        "membership": "Gold"
+    }
+]

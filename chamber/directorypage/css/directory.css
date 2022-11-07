@@ -1,0 +1,9 @@
+.card{
+    background-color: lightgrey;
+    padding: 15px;
+    margin: 10px;
+}
+
+.logo {
+    max-width: 130px;
+}
