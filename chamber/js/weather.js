@@ -30,7 +30,7 @@ function  displayResults(weatherData) {
     windChillTag.innerHTML = windChill.toFixed(0);
 }
 
-const url = "http://api.openweathermap.org/data/2.5/weather?appid=5667ea90f2268bd0fdd1ad1109fd12db&lat=40.6170&lon=-111.8188&units=imperial";
+const url = "https://api.openweathermap.org/data/2.5/weather?appid=5667ea90f2268bd0fdd1ad1109fd12db&lat=40.6170&lon=-111.8188&units=imperial";
 
 async function apiFetch() {
     try {
