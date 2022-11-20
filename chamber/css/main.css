@@ -206,7 +206,7 @@ nav {
   }
 
   .weather-icon {
-	max-width: 50%;
+	width: 80px;
   }
 
   #temprature {

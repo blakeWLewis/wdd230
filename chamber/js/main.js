@@ -9,13 +9,3 @@ if (date.getDay() === 1 || date.getDay() === 2) {
 } else {
     document.querySelector('.banner').style.display = "none";
 }
-
-let temp = 40.0;
-let windSpeed = 6.0;
-let windChill = calculateWindChill(temp, windSpeed);
-
-document.getElementById('wind-speed-value').innerHTML = windSpeed
-
-document.getElementById('wind-chill-value').innerHTML = windChill
-
-document.getElementById('temprature').innerHTML = temp
