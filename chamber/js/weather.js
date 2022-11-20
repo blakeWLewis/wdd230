@@ -13,7 +13,7 @@ const currentTemp = document.querySelector('#temprature');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const windSpeed = document.getElementById('wind-speed-value');
-const windChill = document.getElementById('wind-chill-value');
+const windChillTag = document.getElementById('wind-chill-value');
 
 function  displayResults(weatherData) {
     currentTemp.innerHTML = weatherData.main.temp.toFixed(0);
@@ -27,7 +27,7 @@ function  displayResults(weatherData) {
     windSpeed.innerHTML = weatherData.wind.speed.toFixed(0);
 
     let windChill = calculateWindChill(weatherData.main.temp, weatherData.wind.speed);
-    windChill.innerHTML = windChill.toFixed(0);
+    windChillTag.innerHTML = windChill.toFixed(0);
 }
 
 const url = "http://api.openweathermap.org/data/2.5/weather?appid=5667ea90f2268bd0fdd1ad1109fd12db&lat=40.6170&lon=-111.8188&units=imperial";
