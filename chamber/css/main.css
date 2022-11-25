@@ -280,6 +280,12 @@ nav {
 
   }
 
+  #profile-picture {
+    padding: 1em;
+    border-radius: 100%;
+    width: 130px;
+  }
+
 footer {
 	margin-top: 10px;
 	background-color: #363D41;

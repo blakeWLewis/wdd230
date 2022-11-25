@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Page</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="../css/small.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <header>
+        <div id="header-container">
+            <img id="header-logo" src="../images/IconRock.webp" alt="logo" />
+            <div id="header-title">
+                <h1>Cottonwood Heights</h1>
+                <h2>Chamber of Commerce</h2>
+            </div>
+        </div>
+        <div class="date-ribbon">
+            <span id="todays-date">Today's Date</span>
+        </div>
+        <div id="nav-bar">
+            <nav>
+                <ul class="navigation">
+                    <li>
+                        <div><a class="ham" href="#">Menu</a></div>
+                    </li>
+                    <li>
+                        <div><a href="../index.html">Home</a></div>
+                    </li>
+                    <li>
+                        <div><a href="../discoverpage/discover.html">Discover</a></div>
+                    </li>
+                    <li>
+                        <div><a href="../directorypage/directory.html">Directory</a></div>
+                    </li>
+                    <li>
+                        <div><a href="../joinpage/join.html">Join</a></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Contact</a></div>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div id="contact-info">
+            <h2>Contact Us</h2>
+            <h3>Cottonwood Heights Chamber of Commerce</h3>
+            <p>2332 E Fort Union Blvd <br> Salt Lake City, UT 84121 <br> United States</p>
+            <p>(801) 587-8456</p>
+            <p>info@rocks.city</p>
+        </div>
+        <div id="general-inquiries">
+            <img id="profile-picture" src="../images/me.webp" alt="picture">
+            <h2>General inquiries</h2>
+            <p>If you have visited the Chamber, you know Mr. Blake Lewis.<br>
+                Blake and team are always happy to answer general inquiries or route you to the right person to address
+                your questions!<br>
+                Give us a call or click the join page to fill out a form.<br> (801) 587-8456</p>
+        </div>
+        <div id="contact-form">
+            <form action="message.html">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="first-name">First Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="first-name" name="first-name" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="last-name">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="last-name" name="last-name" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="title">Title</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="title" name="title" pattern="[A-Za-z.\-_]{7,}" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="email" name="email" placeholder="john@gmail.com" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="cell-phone">Cell Phone</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="tel" id="cell-phone" name="cell-phone" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="description">Message</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="description" name="description" placeholder="Write your message here..."
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div>
+            <div id="footer-container">
+                <img id="footer-logo" src="../images/IconRock.webp" alt="logo" />
+                <div class="chamber-info">
+                    <h2>Cottonwood Heights Chamber of Commerce</h2>
+                    <p>2332 E Fort Union Blvd <br> Salt Lake City, UT 84121 <br> United States</p>
+                </div>
+                <div class="chamber-contact">
+                    <p>info@rocks.city</p>
+                    <p>(801) 587-8456</p>
+                    <p><a
+                            href="https://www.google.com/maps/place/Cottonwood+Heights/@40.624894,-111.8335449,17z/data=!3m1!4b1!4m5!3m4!1s0x8752628b4fbfb795:0x69b7db58d1314e4c!8m2!3d40.6248717!4d-111.833523">Location
+                            Map</a></p>
+                </div>
+            </div>
+            <div class="copyright-block">
+                <div>
+                    <span id="copyright-date">2022 Cottonwood Heights Chamber</span> |
+                    <span class="student-name">Blake Lewis</span> |
+                    <span class="class-name">WDD 230 Project</span>
+                    <span id="last-modification-date"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="../contactpage/js/contact.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/nav.js"></script>
+</body>
+
+</html>
