@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Bountiful Foods</title>
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <img id="header-logo" src="img/logo.png" alt="logo"/>
+            <div id="header-title">
+                <h1>Bountiful Foods</h1>
+                <h2>Eat, Fresh, Food.</h2>
+            </div>
+        </div>
+        <div class="date-ribbon">
+            <span id="todays-date">Today's Date</span>
+        </div>
+        <div id="nav-bar">
+            <nav>
+                <ul class="navigation">
+                    <li><div><a class="ham" href="#">Menu</a></div></li>
+                    <li><div><a href="./">Home</a></div></li>
+                    <li><div><a href="fresh/fresh.html">Fresh</a></div></li>
+                    <li><div><a href="about us/aboutus.html">About Us</a></div></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    
+    <main>
+        <div class="banner">
+            <div>
+                <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+            </div>  
+        </div>
+        <div class="container">
+            <div id="hero" class="card">
+                <h2>We have the best fruit drink mixes</h2>
+                <picture id="hero-picture">
+                    <source srcset="images/hero-medium.webp" media="(min-width: 640px) and (max-width: 1023px)">
+                        <source srcset="images/hero-large.webp" media="(min-width: 1024px)">
+
+                </picture>
+
+                <button id="join-us-button" type="button" onclick="window.location.href ='joinpage/join.html' ">Make your custom drink request</button>
+            </div>
+            <div id="event" class="card">
+                <h2>More about Carlsbad</h2>
+                <p>This quaint city has beautiful sandy beaches, three unique lagoons, outstanding shopping and world-class sporting events. It also boasts the LEGOLAND® theme park with rides, shows and attractions and the Flower Fields of Carlsbad Ranch that sports 50 acres of spectacular blooming flowers every spring.</p>
+            </div>
+            <div id="weather" class="card">
+                <h2>Weather</h2>
+                <div>
+                    <img id="weather-icon" class="weather-icon" src="images/1555512.webp" alt="icon of weather">
+                    <figcaption></figcaption>
+                    <p><span id="temprature"></span>°F</p>
+                </div>
+                <div id="weather-details">
+                    <div class="headers-weather">
+                        <p id="wind-speed">Wind Speed: </p>
+                        <p id="wind-chill">Wind Chill: </p>
+                    </div>
+                    <div class="information-right">
+                        <p><span id="wind-speed-value"></span> mph</p>
+                        <p id="wind-chill-value"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="news-release" class="card">
+                <h2>Contact Us</h2>
+                <p>If you'd like to contact us please</p>
+            </div>
+            
+            <div id="join" class="card">
+                <h2>Submit your request to make your very own spectacular fruit drink now! </h2>
+                <button id="join-us-button" type="button">Make your request now </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div >
+            <div id="footer-container">
+                <img id="footer-logo" src="img/logo.png" alt="logo"/>
+                <div class="chamber-info">
+                    <h2>Cottonwood Heights Chamber of Commerce</h2>
+                    <p>2332 E Fort Union Blvd <br> Salt Lake City, UT  84121 <br> United States</p>
+                </div>
+                <div class="chamber-contact">
+                    <p>info@rocks.city</p>
+                    <p>(801) 587-8456</p>
+                    <p><a href="#">Location Map</a></p>
+                </div>
+            </div>
+            <div class="copyright-block">
+                <div>
+                    <span id="copyright-date">2022 Cottonwood Heights Chamber</span> |
+                    <span class="student-name">Blake Lewis</span> |
+                    <span class="class-name">WDD 230 Project</span>
+                    <span id="last-modification-date"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/windchill.js"></script>
+    <script type="text/javascript" src="js/weather.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

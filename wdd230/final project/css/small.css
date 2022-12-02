@@ -1,0 +1,114 @@
+
+@media screen and (max-width: 39.9375em) {
+    body {
+        background-color: white;
+    }
+
+    #header-logo {
+        height: 80px;
+        width: auto;
+    }
+
+
+    .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: auto;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+
+    }
+    .social-media {
+        padding: 10px;
+    }
+    .container {
+        display: grid;
+        grid-gap: 10px;
+      }
+    
+    .card {
+        padding-left: 15px;
+    }
+    
+      #hero {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+      }
+    
+      #event {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+      }
+    
+      #weather {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    
+      }
+    
+      #news-release {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+      }
+    
+      #spotlight {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 7;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      #spotlight-3 {
+        display: none;
+      }
+      .spotlight-card {
+        padding-left: 5px;
+        border-style: solid;
+        border-width: 1px;
+        flex-grow: 1;
+      }
+    
+      #join {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+      }
+
+      footer {
+        margin-top: 10px;
+        background-color: #363D41;
+        color: white;
+    }
+    
+    #footer-container {
+        padding: 20px;
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .chamber-info {
+        flex-grow: 4;
+    }
+    
+    .copyright-block {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    #footer-logo {
+        height: 80px;
+        width: 80px;
+    }
+}
