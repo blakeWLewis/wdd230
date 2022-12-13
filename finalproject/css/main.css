@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+	font-family: 'Manrope', sans-serif;
+}
+header {
+	background-color: darkslategray;
+	color: white;
+}
+
+#header-container{
+	display: flex;
+}
+
+#header-logo {
+    padding: 25px;
+	height: 125px;
+	width: auto;
+}
+
+#header-title {
+	flex-grow: 4;
+}
+
+.social-media {
+	padding: 20px;
+}
+
+.date-ribbon {
+	float: right;
+	padding-right: 20px;
+}
+
+#nav-bar {
+	background-color: darkslategray;
+}
+
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	/* background-color: tomato; */
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	content: "🍔 ";
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: rgb(32, 54, 54);
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+}
+
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.banner {
+	background-color: #ED733D;
+	text-align: center;
+	color: white;
+}
+
+.banner p {
+	padding: 10px;
+}
+  .container {
+	display: grid;
+	grid-gap: 10px;
+  }
+
+.card {
+	padding-left: 15px;
+}
+
+  #hero {
+	padding: 20px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3; 
+	background-color: lightgray;
+	background-image: url('../img/carlsbad.jpg'); 
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  	background-size: cover;
+  }
+
+  #hero-picture {
+	height: 100%;
+	width: 200%;
+  }
+
+  #hero-image {
+	display: block;
+  	max-width:230px;
+  	max-height:95px;
+  	width: 100%;
+  	height: auto;
+	object-fit: cover;
+  }
+  #fruit-pic{
+	max-width: 300px;
+  }
+
+  #event {
+	grid-column-start: 1;
+
+	padding: 30px;
+	background-color: lightgray;
+  }
+
+  .home-link {
+	color: #AF5952;
+  }
+
+  .home-link:hover {
+	color: #7d3f3a;
+  }
+
+  #weather {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	/* grid-row-start: 2;
+	grid-row-end: 3; */
+	padding: 30px;
+	background-color: lightgray;
+
+  }
+
+  .weather-icon {
+	width: 80px;
+  }
+
+  #temprature {
+	display: flex;
+    align-items: center;
+	float: right;
+	font-size: larger;
+	font-weight: bolder;
+  }
+
+.headers-weather{
+	float: left;
+}
+  .information-right {
+	float: right;
+  }
+
+  #news-release {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	padding: 30px;
+	background-color: lightgray;
+  }
+
+  #spotlight {
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+  }
+
+  .spotlight-card {
+	padding-left: 10px;
+	margin: 25px;
+	background-color: lightgray;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #363D41;
+
+  }
+
+  #icons {
+	align-items: center;
+	max-width: 90px;
+  }
+
+  #join {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	padding: 30px;
+	background-color: lightgray;
+  }
+  #join-us-button {
+	background-color: #AF5952; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	align-items: center;
+
+  }
+
+  #profile-picture {
+    padding: 1em;
+    border-radius: 100%;
+    width: 130px;
+  }
+
+footer {
+	margin-top: 10px;
+	background-color: darkslategray;
+	color: white;
+}
+
+#footer-container {
+	padding: 20px;
+	display: flex;
+}
+
+.chamber-info {
+	flex-grow: 4;
+}
+
+.copyright-block {
+	padding-bottom: 20px;
+}
+
+#footer-logo {
+	height: 125px;
+    padding: 25px;
+	width: auto;
+}

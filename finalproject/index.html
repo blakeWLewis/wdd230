@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Bountiful Foods</title>
+</head>
+<body>
+    <header>
+        <div id="header-container">
+            <img id="header-logo" src="img/logo.png" alt="logo"/>
+            <div id="header-title">
+                <h1>Bountiful Foods</h1>
+                <h2>Eat, Fresh, Food.</h2>
+            </div>
+        </div>
+        <div class="date-ribbon">
+            <span id="todays-date">Today's Date</span>
+        </div>
+        <div id="nav-bar">
+            <nav>
+                <ul class="navigation">
+                    <li><div><a class="ham" href="#">Menu</a></div></li>
+                    <li><div><a href="./">Home</a></div></li>
+                    <li><div><a href="fresh/fresh.html">Fresh</a></div></li>
+                    <li><div><a href="about us/aboutus.html">About Us</a></div></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    
+    <main>
+        <div class="container">
+            <div id="hero" class="card">
+                <h2>Learn more about our company!</h2>
+                <picture id="hero-picture">
+                    <source srcset="images/hero-medium.webp" media="(min-width: 640px) and (max-width: 1023px)">
+                        <source srcset="images/hero-large.webp" media="(min-width: 1024px)">
+
+                </picture>
+
+                <button id="join-us-button" type="button" onclick="window.location.href ='about us/aboutus.html' ">I want to know more</button>
+            </div>
+            <div id="event" class="card">
+                <h2>More about Carlsbad</h2>
+                <p>Carlsbad is our favorite place in the whole world. From sandy beaches to LEGOLAND there's so much to do. We pride ourselves on being a smaller city along the southern coast of california. One of the many things we have in carlsbad are great produce that we send to LA and San Diego. Carlsbad is also known for it's Tamarack Surf Beach, backed by the Carlsbad Sea Wall, and secluded South Carlsbad State Beach.  </p>
+                <img id="fruit-pic" src="img/fruit_in_carlsbad.jpg" alt="fruit in carlsbad">
+            </div>
+            <div id="weather" class="card">
+                <h2>Weather here in Carlsbad</h2>
+                <div>
+                    <img id="weather-icon" class="weather-icon" src="images/1555512.webp" alt="icon of weather">
+                    <figcaption></figcaption>
+                    <p><span id="temprature"></span>°F</p>
+                </div>
+                <div id="weather-details">
+                    <div class="headers-weather">
+                        <p id="wind-speed">Wind Speed: </p>
+                        <p id="wind-chill">Wind Chill: </p>
+                    </div>
+                    <div class="information-right">
+                        <p><span id="wind-speed-value"></span> mph</p>
+                        <p id="wind-chill-value"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="news-release" class="card">
+                <h2>Check us out on social media</h2>
+                <p>If you'd like to see what we're up to and what drinks are coming out check out our social medias! We are always posting updates and always trying to get you the best drink mixes we can!</p>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="https://facebook.com" class="fa fa-facebook"></a>
+                <a href="https://twitter.com" class="fa fa-twitter"></a>
+                <a href="https://instagram.com" class="fa fa-instagram"></a>
+            </div>
+            
+            <div id="join" class="card">
+                <h2>Submit your request to make your very own spectacular fruit drink now! </h2>
+                <button id="join-us-button" type="button" onclick="window.location.href ='fresh/fresh.html' ">Make your request now </button>
+                <p>You've currently submitted ### of drink forms!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div >
+            <div id="footer-container">
+                <img id="footer-logo" src="img/logo.png" alt="logo"/>
+                <div class="chamber-info">
+                    <h2>Cottonwood Heights Chamber of Commerce</h2>
+                    <p>4600 Carlsbad Blvd <br> Carlsbad, CA 92008 <br> United States</p>
+                </div>
+                <div class="chamber-contact">
+                    <p>info@BountifulFoods.com</p>
+                    <p>(801) 587-8456</p>
+                </div>
+            </div>
+            <div class="copyright-block">
+                <div>
+                    <span id="copyright-date">2022 Bountiful Foods</span> |
+                    <span class="student-name">Blake Lewis</span> |
+                    <span class="class-name">Final Project WDD 230</span>
+                    <span id="last-modification-date"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/windchill.js"></script>
+    <script type="text/javascript" src="js/weather.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

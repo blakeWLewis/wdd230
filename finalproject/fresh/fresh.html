@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="../css/small.css">
+    <link rel="stylesheet" href="css/fresh.css">
+
+    <title>Bountiful Foods</title>
+</head>
+
+<body>
+    <header>
+        <div id="header-container">
+            <img id="header-logo" src="../img/logo.png" alt="logo" />
+            <div id="header-title">
+                <h1>Bountiful Foods</h1>
+                <h2>Eat, Fresh, Food.</h2>
+            </div>
+        </div>
+        <div class="date-ribbon">
+            <span id="todays-date">Today's Date</span>
+        </div>
+        <div id="nav-bar">
+            <nav>
+                <ul class="navigation">
+                    <li>
+                        <div><a class="ham" href="#">Menu</a></div>
+                    </li>
+                    <li>
+                        <div><a href="/index.html">Home</a></div>
+                    </li>
+                    <li>
+                        <div><a href="#">Fresh</a></div>
+                    </li>
+                    <li>
+                        <div><a href="/about us/aboutus.html">About Us</a></div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Please complete the following form</h2>
+        <form action="javascript:handleSubmit()">
+            <div class="row">
+                <div class="col-25">
+                    <label for="first-name">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="first-name" name="first-name" required />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email" name="email" placeholder="john@gmail.com" required />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="cell-phone">Cell Phone</label>
+                </div>
+                <div class="col-75">
+                    <input type="tel" id="cell-phone" name="cell-phone" required />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="date">Order Date</label>
+                </div>
+                <div class="col-75">
+                    <input type="date" id="order-date" name="order-date" required />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="date">Ingredient 1</label>
+                </div>
+                <div class="col-75">
+                    <select name="Ingredient1" id="Ingredient1" required ></select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="date">Ingredient 2</label>
+                </div>
+                <div class="col-75">
+                    <select name="Ingredient2" id="Ingredient2" required ></select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="date">Ingredient 3</label>
+                </div>
+                <div class="col-75">
+                    <select name="Ingredient1" id="Ingredient3" required ></select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="date">Special Instructions</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="instructions" name="order-date" />
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+            <div class="row">
+                <textarea style="display: none;" id="order-area" readonly="true"></textarea>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div>
+            <div id="footer-container">
+                <img id="footer-logo" src="../img/logo.png" alt="logo" />
+                <div class="chamber-info">
+                    <h2>Cottonwood Heights Chamber of Commerce</h2>
+                    <p>4600 Carlsbad Blvd <br> Carlsbad, CA 92008 <br> United States</p>
+                </div>
+                <div class="chamber-contact">
+                    <p>info@BountifulFoods.com</p>
+                    <p>(801) 587-8456</p>
+                </div>
+            </div>
+            <div class="copyright-block">
+                <div>
+                    <span id="copyright-date">2022 Bountiful Foods</span> |
+                    <span class="student-name">Blake Lewis</span> |
+                    <span class="class-name">Final Project WDD 230</span>
+                    <span id="last-modification-date"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="../js/nav.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="js/fresh.js"></script>
